@@ -8,6 +8,9 @@
 3. 超参数统一设置在config.py
 4. utils 文件夹存放绘制图像功能代码、以及详细训练代码（epoch具体的梯度下降实现）
 5. models 文件夹是对应pilan resnet网络架构实现 和 resnet块实现
+## 项目结构
+
+```text
 ResNet_rebuid/
 ├── data/                   # CIFAR-10 数据集（运行时自动下载）
 ├── models/                 # 网络结构定义
@@ -22,6 +25,7 @@ ResNet_rebuid/
 ├── plainTrain.py           # PlainNet 训练入口
 ├── train.ipynb             # 交互式训练 notebook
 └── README.md               # 本文件
+```
 ## 实验复现效果概览
 ![plian曲线](outputs/figures/plainnet_compare.png)
 图1：Plain-18 与 Plain-34 在 CIFAR-10 上的tain error 和 test error 
