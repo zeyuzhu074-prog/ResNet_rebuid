@@ -32,7 +32,7 @@ ResNet_rebuid/
        Plain-18 与 Plain-34 在 CIFAR-10 上的tain error 和 test error 
 ![plian曲线](outputs/figures/resnet_compare.png)
        ResNet-18 与Resnet-34 在 CIFAR-10 上的tain error 和 test error 
-## 改进ResNet效果概念
+## 改进ResNet效果概览
 
 
 ## 详细细节如下链接
