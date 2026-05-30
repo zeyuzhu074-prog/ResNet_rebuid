@@ -1,5 +1,5 @@
 # 复现 ResNet 论文实验和基于改进 ResNet 的 CIFAR 图像分类
-## 复现论文实验目标
+## 论文实验复现目标
 1. 通过对比 Plain18 与 Plain34，验证普通卷积网络在层数加深后会出现训练误差反而升高的问题；
 2. 通过对比 ResNet系列 与 Plain系列，验证ResNet系列在同等深度和超参数的情况下，有更好的更好的训练效果与测试效果。
 3. 通过对比 ResNet18 与 ResNet34，验证残差连接能够缓解深层网络优化困难，使更深网络依然能够获得更好的训练效果与测试效果。
@@ -27,10 +27,13 @@ ResNet_rebuid/
 ├── train.ipynb             # 交互式训练 notebook
 └── README.md               # 本文件
 ```
-## 实验复现效果概览
+## 论文实验复现效果概览
 ![plian曲线](outputs/figures/plainnet_compare.png)
-图1：Plain-18 与 Plain-34 在 CIFAR-10 上的tain error 和 test error 
+       Plain-18 与 Plain-34 在 CIFAR-10 上的tain error 和 test error 
 ![plian曲线](outputs/figures/resnet_compare.png)
-图2：ResNet-18 与Resnet-34 在 CIFAR-10 上的tain error 和 test error 
+       ResNet-18 与Resnet-34 在 CIFAR-10 上的tain error 和 test error 
+## 改进ResNet效果概念
+
+
 ## 详细细节如下链接
 https://xattp9t9q82.feishu.cn/wiki/FYr9w1rupiflqHk1XWlcXlyEnbJ?from=from_copylink
