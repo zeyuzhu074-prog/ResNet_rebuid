@@ -115,10 +115,12 @@ def train_model(
                 model.state_dict(),
                 './outputs/checkpoints/best_model.pth'
             )
+            print(f'>>> New Best Model! Acc={best_acc:.2f}%')
 
         print(
             f'Epoch [{epoch+1}/{epochs}] '
             f'Loss: {epoch_loss:.4f} '
+            f'BestAcc: {best_acc:.2f}% '
             f'Train Error: {train_error:.2f}% '
             f'Test Error: {test_error:.2f}%'
         )
